@@ -1,0 +1,72 @@
+body {
+  background-color: #f2f2f2;
+}
+body .space-launches-list {
+  background-color: #f2f2f2 !important;
+  padding: 150px 0;
+}
+body .space-wrapper {
+  max-width: 947px;
+  width: 100%;
+  margin: 0 auto;
+  height: 600px;
+  overflow-y: scroll;
+}
+body .inner-space-wrap {
+  background-color: white;
+  padding: 47px;
+  position: relative;
+}
+body .inner-space-wrap .launch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+body .inner-space-wrap .launch .img-wrap {
+  width: 94px;
+  height: 94px;
+  position: relative;
+  margin: 0 30px 0 0;
+}
+body .inner-space-wrap .launch .img-wrap img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+body .inner-space-wrap .launch .info-wrap {
+  width: 70%;
+}
+body .inner-space-wrap .launch .info-wrap .title {
+  font-weight: bold;
+}
+
+.loading-animation {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  width: 100%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  bottom: 0;
+  text-align: center;
+}

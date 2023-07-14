@@ -1,0 +1,25 @@
+{
+  "name": "gulp-compiler",
+  "version": "1.0.0",
+  "description": "this is a gulp compiler",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulpfile"
+  ],
+  "author": "Eric Chad",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-pxtorem": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-rename": "^2.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "run-sequence": "^2.2.1"
+  }
+}
